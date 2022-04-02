@@ -1,0 +1,108 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body { font-family: helvetica,sans-serif;
+      background: url(../img/portada4.jpg) no-repeat;
+      background-color: black;}
+    
+#contenedor {width: 1000px;
+               margin:auto;
+                 }
+
+ #cabecera { padding-top: 20px;
+            padding-bottom: 30px;
+            text-align: right;
+
+             }        
+
+        #Titulo1 h2{ text-align: center;
+                    color: white;
+                    font-family: higher;
+                    font-size: 55px;
+                    padding: 35px;}
+
+#menu { display: inline-block;
+        width: 100%;
+        text-align: right;
+        background: black;
+          padding: 15px;
+          font-size: 12px;}
+
+          
+#menu a{ color: white;
+         text-decoration: none;
+         font-size: 15px;
+         font-weight: bold; 
+         padding: 3px 15px;}
+
+#menu a:hover, .activo{ border-bottom: 2px solid #F00;}
+
+#Directores { padding: 450px 0 0;}
+
+#Directores h2 {border-top: 2px solid red;
+                clear: both;
+                font-size: 30px;
+               color:#2A9CFA;
+               text-align: center;
+               padding: 40px;
+               font-weight: bold;}
+
+
+#Directores h3 {font-size: 20px;
+               color: white;
+               text-align: center;
+               font-weight: bold; 
+              vertical-align: text-top; 
+               text-transform: uppercase;
+               text-indent: 10px;
+               word-spacing: 1px;
+               }
+
+#Directores img{ display:block;
+                 margin:auto; 
+                 width: 20%;}
+
+
+#Titulo2 {
+  width: 100%;
+}
+#Titulo2 img {
+  width: 200px;
+  height: auto;}
+  #Titulo2 td {
+    text-align: center;
+  }
+  #Titulo2 h3 {
+    color: white;
+  }
+  #Actores h2{ color:#2A9CFA ;
+               text-align: center; 
+              font-size: 30px;
+              border-top: 1px solid red;
+              margin-top: 60px;}
+
+#Empresas h2{color:#2A9CFA ;
+               text-align: center; 
+              font-size: 30px;
+              padding-bottom: 80px;
+            border-top: 1px solid red;
+              margin-top: 60px;}
+
+#Guionistas h2{border-top: 1px solid red;
+              margin-top: 60px;}
+
+
+
+#imagenf img { display:block;
+                 margin:auto; 
+                 width: 100%;
+                 padding: 70px;}
+
+
+
+
+#footer { background: #1F2B3F;
+          text-align: center; 
+          padding: 15px;
+          font-size: 12px;}                
